@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Unit Converter</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Conversion Of the Measurment Unit</h1>
+    </header>
+    <div class="main-box">
+      <div class="container">
+        <label for="">Select Unit </label>
+        <select name="" class="selection">
+          <option value="Meter">Meter</option>
+          <option value="Inches">Inches</option>
+          <option value="Centimeter">Centimeter</option>
+          <option value="Feet">Feet</option>
+          <option value="Kilometer">Kilometer</option>
+        </select>
+      </div>
+      <div class="input-boxes">
+        <label id="value" for="">Enter the Value</label>
+        <input type="number" class="input-box-1" />
+      </div>
+      <div class="container-2">
+        <label for="">To Unit </label>
+        <select name="" class="selection-1">
+          <option value="Meter">Meter</option>
+          <option value="Inches">Inches</option>
+          <option value="Centimeter">Centimeter</option>
+          <option value="Feet">Feet</option>
+          <option value="Kilometer">Kilometer</option>
+        </select>
+        <div class="output">
+          <label id="Final" for="">Result</label>
+          <p class="finalValue">0</p>
+        </div>
+        <div class="button-box">
+          <button type="button" class="button" onclick="convertUnit()">
+            Convert
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
